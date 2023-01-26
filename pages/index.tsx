@@ -1,9 +1,9 @@
-import Head from 'next/head';
-import { useEffect, useState } from 'react';
-import { blogParams, docsParams } from 'utils/zodParams';
+import Head from "next/head";
+import { useEffect, useState } from "react";
+import { blogParams } from "utils/zodParams";
 
 const ogImageUrl = `${
-  process.env.VERCEL_URL ? 'https://' + process.env.VERCEL_URL : ''
+  process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : ""
 }/api/landing`;
 
 export default function Page() {
@@ -12,8 +12,8 @@ export default function Page() {
   useEffect(() => {
     // randomize nonce on window focus
     const handleFocus = () => setNonce(Math.random());
-    window.addEventListener('focus', handleFocus);
-    return () => window.removeEventListener('focus', handleFocus);
+    window.addEventListener("focus", handleFocus);
+    return () => window.removeEventListener("focus", handleFocus);
   }, []);
   return (
     <div>
@@ -36,26 +36,20 @@ export default function Page() {
           <h2>Blog</h2>
           <img
             src={`/api/blog?${blogParams.toSearchString({
-              authorImg: 'https://avatars.githubusercontent.com/u/459267',
-              authorName: 'Alex "KATT" Johansson',
-              authorTitle: 'Creator of tRPC',
-              date: '2021-08-01',
-              description:
-                'Eiusmod elit id dolor proident Lorem ut quis exercitation velit cupidatat sit occaecat. Fugiat do culpa exercitation quis anim tempor excepteur sit qui dolor ex aute in. Proident magna eiusmod mollit amet tempor aute in. Labore officia Lorem velit adipisicing reprehenderit. Incididunt aute aliqua Lorem qui consectetur eiusmod pariatur ut exercitation ea est mollit quis.',
-              readingTimeInMinutes: 5,
               title:
-                'This is going to be a really long title for a blog post, it will probably wrap around a few times',
+                "Here is a title that is very long ok cool some more words",
+              minRead: 69,
+              isVideo: true,
             })}&random=${nonce}`}
           />
         </div>
         <div>
-          <h2>Docs</h2>
+          <h2>Blog 2</h2>
           <img
-            src={`/api/docs?${docsParams.toSearchString({
-              description:
-                'The createContext() function is called for each request, and the result is propagated to all resolvers. You can use this to pass contextual data down to the resolvers. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-              title: 'Inferring types',
-              permalink: '/docs/inferring-types',
+            src={`/api/blog?${blogParams.toSearchString({
+              title: "Short title",
+              minRead: 1,
+              isVideo: false,
             })}&random=${nonce}`}
           />
         </div>
