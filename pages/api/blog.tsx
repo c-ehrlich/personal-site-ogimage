@@ -54,9 +54,10 @@ export default async (req: Request) => {
           fontFamily: "Inter",
         }}
       >
-        <div style={{ position: "absolute" }}>
+        <div style={{ display: "flex", position: "absolute" }}>
           <div
             style={{
+              display: "flex",
               position: "relative",
               right: "40px",
               top: "0px",

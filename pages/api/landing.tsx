@@ -46,9 +46,10 @@ export default async (_req: Request) => {
           padding: "64px",
         }}
       >
-        <div style={{ position: "absolute" }}>
+        <div style={{ display: "flex", position: "absolute" }}>
           <div
             style={{
+              display: "flex",
               position: "relative",
               right: "40px",
               top: "0px",
