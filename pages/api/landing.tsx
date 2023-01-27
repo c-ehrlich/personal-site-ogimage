@@ -51,7 +51,7 @@ export default async (_req: Request) => {
             position: "sticky",
             right: "40px",
             top: "0px",
-            zIndex: 0,
+            zIndex: "0",
             height: "16px",
             width: "16px",
             borderRadius: "50%",
@@ -61,7 +61,7 @@ export default async (_req: Request) => {
         />
         <div
           style={{
-            zIndex: 100,
+            zIndex: "100",
             display: "flex",
             flexDirection: "column",
             gap: "64px",
@@ -73,7 +73,7 @@ export default async (_req: Request) => {
         >
           <img
             style={{
-              zIndex: 4,
+              zIndex: "4",
               borderRadius: "50%",
             }}
             src="https://www.c-ehrlich.dev/og/avatar.jpg"
