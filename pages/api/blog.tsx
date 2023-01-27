@@ -92,7 +92,7 @@ export default async (req: Request) => {
               display: "flex",
               flexDirection: "column",
               border: "1px solid orange",
-              gap: "64px",
+              gap: "0px",
               width: "100%",
               margin: "0px",
               padding: "0px",
@@ -104,6 +104,7 @@ export default async (req: Request) => {
                 justifyContent: "space-between",
                 width: "100%",
                 border: "1px solid red",
+                marginBottom: "64px",
                 alignItems: "flex-start",
               }}
             >
