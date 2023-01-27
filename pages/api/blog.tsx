@@ -108,7 +108,15 @@ export default async (req: Request) => {
                 height="160px"
                 alt="Christopher Ehrlich Avatar"
               />
-              <p style={{ fontSize: "36px" }}>Christopher Ehrlich</p>
+              <p
+                style={{
+                  fontSize: "36px",
+                  verticalAlign: "top",
+                  marginTop: "-4px",
+                }}
+              >
+                Christopher Ehrlich
+              </p>
             </div>
             <h1
               style={{
