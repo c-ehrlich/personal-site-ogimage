@@ -68,12 +68,12 @@ export default async (req: Request) => {
               position: "relative",
               right: "40px",
               top: "0px",
-              zIndex: "0",
+              zIndex: "100",
               height: "16px",
               width: "16px",
               borderRadius: "50%",
               border: "1px solid green",
-              backgroundColor: "transparent",
+              backgroundColor: "red",
               boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
             }}
           />
@@ -126,10 +126,8 @@ export default async (req: Request) => {
             </div>
             <h1
               style={{
-                marginTop: "0",
-                marginBottom: "0",
-                paddingTop: "0",
-                paddingBottom: "0",
+                margin: "0",
+                padding: "0",
                 fontSize: "72px",
                 lineHeight: "90px",
                 fontWeight: "800",
