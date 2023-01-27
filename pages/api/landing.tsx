@@ -46,19 +46,21 @@ export default async (_req: Request) => {
           padding: "64px",
         }}
       >
-        <div
-          style={{
-            position: "sticky",
-            right: "40px",
-            top: "0px",
-            zIndex: "0",
-            height: "16px",
-            width: "16px",
-            borderRadius: "50%",
-            backgroundColor: "transparent",
-            boxShadow: "1030px 600px 800px 800px rgba(255,180,100,0.12)",
-          }}
-        />
+        <div style={{ position: "absolute" }}>
+          <div
+            style={{
+              position: "relative",
+              right: "40px",
+              top: "0px",
+              zIndex: "0",
+              height: "16px",
+              width: "16px",
+              borderRadius: "50%",
+              backgroundColor: "transparent",
+              boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
+            }}
+          />
+        </div>
         <div
           style={{
             zIndex: "100",
