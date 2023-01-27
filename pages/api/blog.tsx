@@ -55,7 +55,13 @@ export default async (req: Request) => {
           boxSizing: "border-box",
         }}
       >
-        <div style={{ display: "flex", position: "absolute" }}>
+        <div
+          style={{
+            display: "flex",
+            position: "absolute",
+            border: "1px solid white",
+          }}
+        >
           <div
             style={{
               display: "flex",
@@ -134,6 +140,7 @@ export default async (req: Request) => {
           </div>
           <p
             style={{
+              border: "1px solid green",
               fontSize: "36px",
               margin: "0",
               padding: "0",
