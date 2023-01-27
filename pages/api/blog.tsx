@@ -66,20 +66,19 @@ export default async (req: Request) => {
             style={{
               display: "flex",
               position: "relative",
-              zIndex: "100",
+              zIndex: "50",
               height: "16px",
               width: "16px",
               borderRadius: "50%",
               border: "1px solid green",
               backgroundColor: "red",
-              boxShadow: "10px 10px 100px 100px red",
+              boxShadow: "200px 200px 1px 1px red",
               // boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
             }}
           />
         </div>
         <div
           style={{
-            zIndex: 100,
             display: "flex",
             flexDirection: "column",
             border: "1px solid yellow",
@@ -110,7 +109,7 @@ export default async (req: Request) => {
               }}
             >
               <img
-                style={{ zIndex: "4", borderRadius: "50%" }}
+                style={{ borderRadius: "50%" }}
                 src="https://www.c-ehrlich.dev/og/avatar.jpg"
                 width="160px"
                 height="160px"
