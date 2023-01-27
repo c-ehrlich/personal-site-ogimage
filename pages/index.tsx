@@ -43,24 +43,7 @@ export default function Page() {
             })}&random=${nonce}`}
           />
         </div>
-        <div>
-          <h2>Blog 2</h2>
-          <img
-            src={`/api/blog?${blogParams.toSearchString({
-              title: "Short title",
-              minRead: 1,
-              isVideo: false,
-            })}&random=${nonce}`}
-          />
-        </div>
       </main>
-      {/* eslint-disable-next-line react/no-unknown-property */}
-      <style jsx>{`
-        img {
-          max-width: 100%;
-          width: 600px;
-        }
-      `}</style>
     </div>
   );
 }
