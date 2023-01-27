@@ -72,7 +72,7 @@ export default async (req: Request) => {
               borderRadius: "50%",
               border: "1px solid green",
               backgroundColor: "red",
-              boxShadow: "200px 200px 1px 1px red",
+              boxShadow: "200px 200px 1px 1px rgba(255,140,100,0.12)",
               // boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
             }}
           />
