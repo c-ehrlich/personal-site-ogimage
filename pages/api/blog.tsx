@@ -52,6 +52,7 @@ export default async (req: Request) => {
           padding: "64px",
           color: "hsl(15,15%,90%)",
           fontFamily: "Inter",
+          boxSizing: "border-box",
         }}
       >
         <div style={{ display: "flex", position: "absolute" }}>
@@ -83,7 +84,13 @@ export default async (req: Request) => {
           }}
         >
           <div
-            style={{ display: "flex", flexDirection: "column", gap: "64px" }}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              border: "1px solid orange",
+              gap: "64px",
+              width: "100%",
+            }}
           >
             <div
               style={{
