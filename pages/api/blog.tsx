@@ -134,7 +134,7 @@ export default async (req: Request) => {
           </div>
           <p
             style={{
-              fontSize: "space-between",
+              fontSize: "36px",
               margin: "0",
               padding: "0",
               color: "rgb(253 186 116 / 0.9)",
