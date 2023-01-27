@@ -132,18 +132,16 @@ export default async (req: Request) => {
               {props.title}
             </h1>
           </div>
-          <div
+          <p
             style={{
-              display: "flex",
-              justifyContent: "space-between",
-              fontSize: "36px",
-              lineHeight: "40px",
+              fontSize: "space-between",
+              margin: "0",
+              padding: "0",
+              color: "rgb(253 186 116 / 0.9)",
             }}
           >
-            <p style={{ color: "rgb(253 186 116 / 0.9)" }}>
-              {props.minRead} minute {props.isVideo ? "video" : "read"}
-            </p>
-          </div>
+            {props.minRead} minute {props.isVideo ? "video" : "read"}
+          </p>
         </div>
       </div>
     ),
