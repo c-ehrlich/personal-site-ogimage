@@ -59,6 +59,7 @@ export default async (req: Request) => {
             display: "flex",
             position: "absolute",
             border: "1px solid white",
+            overflow: "visible",
           }}
         >
           <div
