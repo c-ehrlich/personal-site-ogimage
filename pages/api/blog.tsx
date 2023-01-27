@@ -131,6 +131,7 @@ export default async (req: Request) => {
                 fontSize: "72px",
                 lineHeight: "90px",
                 fontWeight: "800",
+                border: "1px solid blue",
               }}
             >
               {props.title}
