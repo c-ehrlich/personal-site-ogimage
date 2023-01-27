@@ -83,7 +83,14 @@ export default async (req: Request) => {
           <div
             style={{ display: "flex", flexDirection: "column", gap: "64px" }}
           >
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                width: "100%",
+                alignItems: "flex-start",
+              }}
+            >
               <img
                 style={{ zIndex: "4", borderRadius: "50%" }}
                 src="https://www.c-ehrlich.dev/og/avatar.jpg"
@@ -91,9 +98,7 @@ export default async (req: Request) => {
                 height="160px"
                 alt="Christopher Ehrlich Avatar"
               />
-              <p style={{ fontSize: "36px", lineHeight: "40px" }}>
-                Christopher Ehrlich
-              </p>
+              <p style={{ fontSize: "36px" }}>Christopher Ehrlich</p>
             </div>
             <h1
               style={{
