@@ -33,17 +33,49 @@ export default async (_req: Request) => {
   return new ImageResponse(
     (
       <div
-        tw="flex h-[630px] w-[1200px] flex-col overflow-clip bg-[hsl(15,35%,5%)] bg-cover p-16 text-[hsl(15,15%,90%)]"
         style={{
+          display: "flex",
+          height: "630px",
+          width: "1200px",
+          flexDirection: "column",
+          overflow: "clip",
           fontFamily: "Inter",
           backgroundColor: "hsl(15,35%,5%)",
+          backgroundSize: "cover",
           color: "hsl(15,15%,90%)",
+          padding: "64px",
         }}
       >
-        <div tw="sticky right-10 top-0 z-0 h-4 w-4 rounded-full bg-transparent shadow-[1030px_600px_800px_800px_rgba(255,180,100,0.12)]" />
-        <div tw="z-100 flex h-full w-full flex-col items-center justify-center gap-16">
+        <div
+          style={{
+            position: "sticky",
+            right: "40px",
+            top: "0px",
+            zIndex: 0,
+            height: "16px",
+            width: "16px",
+            borderRadius: "50%",
+            backgroundColor: "transparent",
+            boxShadow: "1030px 600px 800px 800px rgba(255,180,100,0.12)",
+          }}
+        />
+        <div
+          style={{
+            zIndex: 100,
+            display: "flex",
+            flexDirection: "column",
+            gap: "64px",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100%",
+            width: "100%",
+          }}
+        >
           <img
-            tw="z-4 rounded-full"
+            style={{
+              zIndex: 4,
+              borderRadius: "50%",
+            }}
             src="https://www.c-ehrlich.dev/og/avatar.jpg"
             width="224px"
             height="224px"
