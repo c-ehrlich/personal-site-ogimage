@@ -41,7 +41,6 @@ export default async (_req: Request) => {
           overflow: "hidden",
           fontFamily: "Inter",
           backgroundColor: "hsl(15,35%,5%)",
-          backgroundSize: "cover",
           color: "hsl(15,15%,90%)",
           padding: "64px",
         }}
