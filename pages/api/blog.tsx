@@ -52,14 +52,13 @@ export default async (req: Request) => {
           color: "hsl(15,15%,90%)",
           fontFamily: "Inter",
           boxSizing: "border-box",
-          boxShadow: "-900px 0px 1000px -400px rgba(255,100,100,0.12) inset",
+          boxShadow: "-900px 0px 1000px -400px red inset",
         }}
       >
         <div
           style={{
             display: "flex",
             position: "absolute",
-            border: "1px solid white",
             overflow: "visible",
           }}
         >
@@ -71,7 +70,6 @@ export default async (req: Request) => {
               height: "16px",
               width: "16px",
               borderRadius: "50%",
-              border: "1px solid green",
               backgroundColor: "red",
               boxShadow: "200px 200px 1px 800px red",
               // boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
@@ -82,7 +80,6 @@ export default async (req: Request) => {
           style={{
             display: "flex",
             flexDirection: "column",
-            border: "1px solid yellow",
             justifyContent: "space-between",
             height: "100%",
             width: "100%",
@@ -92,7 +89,6 @@ export default async (req: Request) => {
             style={{
               display: "flex",
               flexDirection: "column",
-              border: "1px solid orange",
               gap: "0px",
               width: "100%",
               margin: "0px",
@@ -104,7 +100,6 @@ export default async (req: Request) => {
                 display: "flex",
                 justifyContent: "space-between",
                 width: "100%",
-                border: "1px solid red",
                 marginBottom: "64px",
                 alignItems: "flex-start",
               }}
@@ -133,7 +128,6 @@ export default async (req: Request) => {
                 fontSize: "72px",
                 lineHeight: "90px",
                 fontWeight: "800",
-                border: "1px solid blue",
               }}
             >
               {props.title}
@@ -141,7 +135,6 @@ export default async (req: Request) => {
           </div>
           <p
             style={{
-              border: "1px solid green",
               fontSize: "36px",
               margin: "0",
               padding: "0",
