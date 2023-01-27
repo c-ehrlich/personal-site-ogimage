@@ -38,7 +38,7 @@ export default async (_req: Request) => {
           height: "630px",
           width: "1200px",
           flexDirection: "column",
-          overflow: "clip",
+          overflow: "hidden",
           fontFamily: "Inter",
           backgroundColor: "hsl(15,35%,5%)",
           backgroundSize: "cover",
