@@ -52,6 +52,7 @@ export default async (req: Request) => {
           color: "hsl(15,15%,90%)",
           fontFamily: "Inter",
           boxSizing: "border-box",
+          boxShadow: "-900px 0px 1000px -400px rgba(255,100,100,0.12) inset",
         }}
       >
         <div
