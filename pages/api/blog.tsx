@@ -102,7 +102,7 @@ export default async (req: Request) => {
                 paddingTop: "0",
                 paddingBottom: "0",
                 fontSize: "72px",
-                lineHeight: "1.25",
+                lineHeight: "90px",
                 fontWeight: "800",
               }}
             >
