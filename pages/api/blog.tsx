@@ -91,7 +91,7 @@ export default async (req: Request) => {
                 height="160px"
                 alt="Christopher Ehrlich Avatar"
               />
-              <p style={{ fontSize: "2.25rem", lineHeight: "2.5rem" }}>
+              <p style={{ fontSize: "36px", lineHeight: "40px" }}>
                 Christopher Ehrlich
               </p>
             </div>
@@ -101,7 +101,7 @@ export default async (req: Request) => {
                 marginBottom: "0",
                 paddingTop: "0",
                 paddingBottom: "0",
-                fontSize: "4.5rem",
+                fontSize: "72px",
                 lineHeight: "1.25",
                 fontWeight: "800",
               }}
@@ -113,8 +113,8 @@ export default async (req: Request) => {
             style={{
               display: "flex",
               justifyContent: "space-between",
-              fontSize: "2.25rem",
-              lineHeight: "2.5rem",
+              fontSize: "36px",
+              lineHeight: "40px",
             }}
           >
             <p style={{ color: "rgb(253 186 116 / 0.9)" }}>
