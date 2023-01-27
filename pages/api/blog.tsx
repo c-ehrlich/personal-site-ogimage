@@ -48,7 +48,6 @@ export default async (req: Request) => {
           flexDirection: "column",
           overflow: "hidden",
           backgroundColor: "hsl(15,35%,5%)",
-          backgroundSize: "cover",
           padding: "64px",
           color: "hsl(15,15%,90%)",
           fontFamily: "Inter",
@@ -72,7 +71,8 @@ export default async (req: Request) => {
               borderRadius: "50%",
               border: "1px solid green",
               backgroundColor: "red",
-              boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
+              boxShadow: "5px 5px 30px 30px red",
+              // boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
             }}
           />
         </div>
