@@ -36,8 +36,7 @@ export default function Page() {
           <h2>Blog</h2>
           <img
             src={`/api/blog?${blogParams.toSearchString({
-              title:
-                "Here is a title that is very long ok cool some more words",
+              title: "Lorem ipsum dolor sit amet consetetur sadipscing elitr",
               minRead: 69,
               isVideo: true,
             })}&random=${nonce}`}
