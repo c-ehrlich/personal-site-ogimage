@@ -83,7 +83,15 @@ export default async (_req: Request) => {
             height="224px"
             alt="Christopher Ehrlich Avatar"
           />
-          <h1 tw="mb-4 text-7xl font-bold">Christopher Ehrlich</h1>
+          <h1
+            style={{
+              marginBottom: "16px",
+              fontSize: "72px",
+              fontWeight: "700",
+            }}
+          >
+            Christopher Ehrlich
+          </h1>
         </div>
       </div>
     ),
