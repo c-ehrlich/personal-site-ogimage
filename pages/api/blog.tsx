@@ -66,8 +66,6 @@ export default async (req: Request) => {
             style={{
               display: "flex",
               position: "relative",
-              right: "40px",
-              top: "0px",
               zIndex: "100",
               height: "16px",
               width: "16px",
@@ -96,6 +94,8 @@ export default async (req: Request) => {
               border: "1px solid orange",
               gap: "64px",
               width: "100%",
+              margin: "0px",
+              padding: "0px",
             }}
           >
             <div
@@ -126,8 +126,8 @@ export default async (req: Request) => {
             </div>
             <h1
               style={{
-                margin: "0",
-                padding: "0",
+                margin: "0px",
+                padding: "0px",
                 fontSize: "72px",
                 lineHeight: "90px",
                 fontWeight: "800",
