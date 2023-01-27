@@ -58,27 +58,6 @@ export default async (req: Request) => {
         <div
           style={{
             display: "flex",
-            position: "absolute",
-            overflow: "visible",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              position: "relative",
-              zIndex: "50",
-              height: "16px",
-              width: "16px",
-              borderRadius: "50%",
-              backgroundColor: "red",
-              boxShadow: "200px 200px 1px 800px red",
-              // boxShadow: "1030px 600px 800px 800px rgba(255,140,100,0.12)",
-            }}
-          />
-        </div>
-        <div
-          style={{
-            display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",
             height: "100%",
