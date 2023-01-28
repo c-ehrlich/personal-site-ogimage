@@ -40,7 +40,9 @@ export default async (_req: Request) => {
           flexDirection: "column",
           overflow: "hidden",
           fontFamily: "Inter",
-          backgroundColor: "hsl(15,35%,5%)",
+          background:
+            "linear-gradient(290deg, hsl(30,50%,12%) 0%, hsl(15,35%,5%) 50% 100%)",
+          // backgroundColor: "hsl(15,35%,5%)",
           color: "hsl(15,15%,90%)",
           padding: "64px",
         }}

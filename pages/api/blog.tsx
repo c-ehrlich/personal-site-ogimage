@@ -47,7 +47,9 @@ export default async (req: Request) => {
           width: "1200px",
           flexDirection: "column",
           overflow: "hidden",
-          backgroundColor: "hsl(15,35%,5%)",
+          background:
+            "linear-gradient(290deg, hsl(30,50%,12%) 0%, hsl(15,35%,5%) 50% 100%)",
+          // backgroundColor: "hsl(15,35%,5%)",
           padding: "64px",
           color: "hsl(15,15%,90%)",
           fontFamily: "Inter",
