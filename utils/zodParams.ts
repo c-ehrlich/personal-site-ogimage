@@ -55,7 +55,7 @@ export const fontParams = zodParams(
 export const blogParams = zodParams(
   z.object({
     title: truncatedWordSchema({ maxCharacters: 70 }),
-    minRead: z.number().positive(),
+    minRead: z.string().min(1),
     isVideo: z.boolean().default(false),
   }),
 );
