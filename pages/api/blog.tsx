@@ -120,7 +120,7 @@ export default async (req: Request) => {
               color: "rgb(253 186 116 / 0.9)",
             }}
           >
-            {props.minRead} minute {props.isVideo ? "video" : "read"}
+            {props.minRead ?? "ERROR missing minRead"}
           </p>
         </div>
       </div>
